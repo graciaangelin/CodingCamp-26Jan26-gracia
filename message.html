@@ -11,78 +11,102 @@
             <img src="https://i.pinimg.com/1200x/bf/e5/38/bfe53819d339937ba67fb80a275c893a.jpg" alt="Logo" style="height: 40px; width: auto;">
             <span class="logo-text">LavenderFlorist</span>
         </div>
+
         <nav>
             <a href="index.html">Home</a>
             <a href="profile.html">Our Profile</a>
             <a href="portofolio.html">Portofolio</a>
             <a href="message.html" class="active">Message Us</a>
+
+            <!-- Wajib untuk Dicoding -->
+            <a href="https://www.dicoding.com/users/username_kamu" target="_blank">
+                Profil Dicoding
+            </a>
         </nav>
     </header>
-<main class="message-container">
-    <article>
-        <div class="message-flex-box">
-            <section class="form-section">
-               <div class="form-header">
-                   <h2>📬 Hubungi Kami</h2>
-                   <p>Kirimkan pesan Anda di bawah ini.</p>
-               </div>
-            
-            <form id="messageForm">
-                <div class="input-field">
-                    <label><strong>Nama Lengkap</strong></label>
-                    <input type="text" id="input-nama" placeholder="Masukkan nama Anda..." required>
-                </div>
 
-                <div class="input-field">
-                    <label><strong>Tanggal Lahir</strong></label>
-                    <input type="date" id="input-tgl" required>
-                </div>
+    <main class="message-container">
+        <article>
+            <div class="message-flex-box">
 
-                <div class="input-field">
-                    <label><strong>Jenis Kelamin</strong></label>
-                    <div class="gender-container">
-                        <label class="gender-item">
-                            <input type="radio" name="gender" value="Laki-laki"> Laki-laki
-                         </label>
-                         <label class="gender-item">
-                             <input type="radio" name="gender" value="Perempuan"> Perempuan
-                         </label>
+                <section class="form-section">
+                    <div class="form-header">
+                        <h2>📬 Hubungi Kami</h2>
+                        <p>Kirimkan pesan Anda di bawah ini.</p>
                     </div>
-                </div>
 
-                <div class="input-field">
-                    <label><strong>Pesan</strong></label>
-                    <textarea id="input-pesan" rows="4" placeholder="Tulis pesan Anda..." required></textarea>
-                </div>
+                    <form id="messageForm">
+                        <div class="input-field">
+                            <label><strong>Nama Lengkap</strong></label>
+                            <input type="text" id="input-nama" placeholder="Masukkan nama Anda..." required>
+                        </div>
 
-                <button type="submit" class="btn-send">Kirim</button>
-            </form>
-        </section>
+                        <div class="input-field">
+                            <label><strong>Tanggal Lahir</strong></label>
+                            <input type="date" id="input-tgl" required>
+                        </div>
 
-        <aside class="display-section">
-            <h3>📝 Informasi Input:</h3>
-            <div class="display-box">
-                <div class="display-item">
-                    <strong>Waktu:</strong> <span id="res-time">-</span>
-                </div>
-                <div class="display-item">
-                    <strong>Nama:</strong> <span id="res-nama">-</span>
-                </div>
-                <div class="display-item">
-                    <strong>Tgl Lahir:</strong> <span id="res-tgl">-</span>
-                </div>
-                <div class="display-item">
-                    <strong>Gender:</strong> <span id="res-gender">-</span>
-                </div>
-                <div class="display-message">
-                    <strong>Pesan:</strong>
-                    <p id="res-pesan">Belum ada pesan yang dikirim.</p>
-                </div>
+                        <div class="input-field">
+                            <label><strong>Jenis Kelamin</strong></label>
+                            <div class="gender-container">
+                                <label class="gender-item">
+                                    <input type="radio" name="gender" value="Laki-laki"> Laki-laki
+                                </label>
+
+                                <label class="gender-item">
+                                    <input type="radio" name="gender" value="Perempuan"> Perempuan
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="input-field">
+                            <label><strong>Pesan</strong></label>
+                            <textarea id="input-pesan" rows="4" placeholder="Tulis pesan Anda..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn-send">Kirim</button>
+                    </form>
+                </section>
+
+                <aside class="display-section">
+                    <h3>📝 Informasi Input:</h3>
+
+                    <div class="display-box">
+                        <div class="display-item">
+                            <strong>Waktu:</strong>
+                            <span id="res-time">-</span>
+                        </div>
+
+                        <div class="display-item">
+                            <strong>Nama:</strong>
+                            <span id="res-nama">-</span>
+                        </div>
+
+                        <div class="display-item">
+                            <strong>Tgl Lahir:</strong>
+                            <span id="res-tgl">-</span>
+                        </div>
+
+                        <div class="display-item">
+                            <strong>Gender:</strong>
+                            <span id="res-gender">-</span>
+                        </div>
+
+                        <div class="display-message">
+                            <strong>Pesan:</strong>
+                            <p id="res-pesan">Belum ada pesan yang dikirim.</p>
+                        </div>
+                    </div>
+                </aside>
+
             </div>
-        </aside>
-        </div>
-    </article>
-</main>
+        </article>
+    </main>
+
+    <footer>
+        <p>© 2026 Lavender Florist | Dibuat oleh Gracia</p>
+    </footer>
+
     <script src="js/script.js"></script>
 </body>
 </html>
